@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #8c8c84;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+nav {
+    background: url('/htmltest/header.png') no-repeat center center/cover;
+    padding: 0.5rem;
+    text-align: center;
+    border-radius: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 95%; 
+    height: 65px;
+    position: relative;
+    z-index: 1; 
+    box-shadow: 0 0 0 3px #E4EAA4;
+}
+
+.container {
+    max-width: 580px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+.content {
+    background-color: #8c8c84;
+    padding: 2rem;
+    border-radius: 5px;
+    position: relative;
+    z-index: 2;
+}
+
+.nav-logo {
+    width: 40px; 
+    height: auto;
+    cursor: pointer;
+}
+.content img {
+    display: block; 
+    margin: 1 auto; 
+    
+}
+
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+.button-container {
+    position: relative;
+}
+.button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #f0ecec;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px; 
+}
+.buttwon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #c0bcbc;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+nav:hover {
+    border: 3px solid #ff6f61; 
+}
+
+.maps-image {
+    position: fixed;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80vw;
+    height: 80vh; 
+    object-fit: cover;
+    object-position: center;
+    z-index: 0;
+}

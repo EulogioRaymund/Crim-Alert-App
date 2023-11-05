@@ -1,0 +1,24 @@
+.Group7 {
+    width: 321px;
+    height: 159px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    background: url('h.png') no-repeat center center;
+    border-radius: 30px;
+    background-size: cover;
+    background-position: center center;
+}
+
+.Rectangle7 {
+    width: 308px;
+    height: 151.77px;
+    left: 5px;
+    top: 3.61px;
+    position: absolute;
+    background: url('c.png') no-repeat center center;
+    border-radius: 30px;
+    background-size: contain;
+    background-position: top left;
+
+}
